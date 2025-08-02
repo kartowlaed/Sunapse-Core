@@ -1,0 +1,5 @@
+flags:
+  bot_updates: 1
+  technical: 2
+  tribe: 4
+  server_news: 8

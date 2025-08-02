@@ -1,0 +1,56 @@
+common_mobs:
+  zombie:
+    name: "Зомби"
+    type: melee
+    hp_base: 80
+    dmg_base: 6
+    scale_hp: 0.10
+    scale_dmg: 0.08
+    drops:
+      emeralds: [5, 10]
+      chest: {wooden: 0.05}
+
+  skeleton:
+    name: "Скелет"
+    type: ranged
+    hp_base: 70
+    dmg_base: 7
+    scale_hp: 0.10
+    scale_dmg: 0.08
+    effects: ["bleed:1"]
+    drops:
+      emeralds: [6, 12]
+      chest: {wooden: 0.05}
+
+  spider:
+    name: "Паук"
+    type: melee
+    hp_base: 85
+    dmg_base: 5
+    scale_hp: 0.10
+    scale_dmg: 0.08
+    effects: ["poison:1"]
+    drops:
+      emeralds: [5, 10]
+
+  creeper:
+    name: "Крипер"
+    type: suicide
+    hp_base: 60
+    dmg_base: 0
+    explode_dmg: 20
+    scale_hp: 0.10
+    drops:
+      emeralds: [8, 14]
+      chest: {wooden: 0.07}
+
+mobs:
+  forest: []
+  swamp: []
+  pumpkin: []
+  redstone: []
+  forge: []
+  desert: []
+  highblock: []
+  obsidian: []
+

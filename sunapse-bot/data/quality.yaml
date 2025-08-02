@@ -1,0 +1,5 @@
+quality:
+  0: {tag: "потрёпанный", dmg_mult: 0.95, hp_mult: 0.95}
+  1: {tag: "",            dmg_mult: 1.00, hp_mult: 1.00}
+  2: {tag: "полированный", dmg_mult: 1.07, hp_mult: 1.07}
+  3: {tag: "мастерский",   dmg_mult: 1.15, hp_mult: 1.15}

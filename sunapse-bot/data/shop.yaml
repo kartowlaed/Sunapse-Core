@@ -1,0 +1,25 @@
+shop:
+  blocks:
+    stone:        {price: 1}
+    sandstone:    {price: 2}
+    redstone:     {price: 5}
+    obsidian:     {price: 12}
+  weapons:
+    wood_sword:     {price: 30,  dmg: 10}
+    iron_sword:     {price: 120, dmg: 18}
+    diamond_sword:  {price: 320, dmg: 26}
+  armors:
+    leather:  {price: 40,  hp: 20}
+    iron:     {price: 160, hp: 40}
+    diamond:  {price: 400, hp: 60}
+  artifacts:
+    heal_totem:   {price: 200, rarity: rare}
+    fire_totem:   {price: 280, rarity: rare}
+    eye_of_ender: {ender_eyes: 5, rarity: epic}
+  chests:
+    wooden:  {price: 50}
+    gold:    {price: 150}
+    ender:   {rubies: 3}
+  daily_gift:
+    cooldown_h: 24
+    pool: {emeralds: [20, 50], wooden_chest: 0.2}

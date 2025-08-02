@@ -1,0 +1,5 @@
+rarity:
+  common: {tag: "",           dmg_mul: 1.00, weight: {wooden: 0.8, gold: 0.6, ender: 0.4}}
+  rare:   {tag: "редкий",     dmg_mul: 1.03, weight: {wooden: 0.18, gold: 0.25, ender: 0.35}}
+  mythic: {tag: "мифический", dmg_mul: 1.07, weight: {wooden: 0.02, gold: 0.12, ender: 0.20}}
+  chromatic: {tag: "хроматический", dmg_mul: 1.12, weight: {wooden: 0, gold: 0.03, ender: 0.05}}

@@ -1,0 +1,140 @@
+weapons:
+  wood_sword:
+    name: "Деревянный меч"
+    material: wood
+    quality: 1
+    rarity: common
+    dmg: 10
+    tier: 1
+  stone_sword:
+    name: "Каменный меч"
+    material: stone
+    quality: 1
+    rarity: common
+    dmg: 14
+    tier: 1
+  iron_sword:
+    name: "Железный меч"
+    material: iron
+    quality: 1
+    rarity: rare
+    dmg: 18
+    tier: 2
+  gold_sword:
+    name: "Золотой меч"
+    material: gold
+    quality: 1
+    rarity: rare
+    dmg: 22
+    tier: 2
+  diamond_sword:
+    name: "Алмазный меч"
+    material: diamond
+    quality: 1
+    rarity: mythic
+    dmg: 26
+    tier: 3
+  netherite_sword:
+    name: "Незеритовый меч"
+    material: netherite
+    quality: 1
+    rarity: chromatic
+    dmg: 30
+    tier: 4
+
+pickaxes:
+  wood_pickaxe:
+    name: "Деревянная кирка"
+    material: wood
+    quality: 1
+    rarity: common
+    tier: 1
+  stone_pickaxe:
+    name: "Каменная кирка"
+    material: stone
+    quality: 1
+    rarity: common
+    tier: 1
+  iron_pickaxe:
+    name: "Железная кирка"
+    material: iron
+    quality: 1
+    rarity: rare
+    tier: 2
+  gold_pickaxe:
+    name: "Золотая кирка"
+    material: gold
+    quality: 1
+    rarity: rare
+    tier: 2
+  diamond_pickaxe:
+    name: "Алмазная кирка"
+    material: diamond
+    quality: 1
+    rarity: mythic
+    tier: 3
+  netherite_pickaxe:
+    name: "Незеритовая кирка"
+    material: netherite
+    quality: 1
+    rarity: chromatic
+    tier: 4
+
+armors:
+  leather_armor:
+    name: "Кожаная броня"
+    material: leather
+    quality: 1
+    rarity: common
+    hp: 20
+    tier: 1
+  iron_armor:
+    name: "Железная броня"
+    material: iron
+    quality: 1
+    rarity: rare
+    hp: 40
+    tier: 2
+  gold_armor:
+    name: "Золотая броня"
+    material: gold
+    quality: 1
+    rarity: rare
+    hp: 36
+    tier: 2
+  diamond_armor:
+    name: "Алмазная броня"
+    material: diamond
+    quality: 1
+    rarity: mythic
+    hp: 60
+    tier: 3
+  netherite_armor:
+    name: "Незеритовая броня"
+    material: netherite
+    quality: 1
+    rarity: chromatic
+    hp: 80
+    tier: 4
+
+artifacts:
+  heal_totem:
+    name: "Тотем исцеления"
+    effect: "heal_self_50"
+    rarity: rare
+  fire_totem:
+    name: "Тотем огня"
+    effect: "add_fire_dmg"
+    rarity: rare
+
+blocks:
+  stone:
+    sell_price: 1
+  sandstone:
+    sell_price: 2
+  redstone:
+    sell_price: 5
+  obsidian:
+    sell_price: 12
+  ruby:
+    sell_price: 0

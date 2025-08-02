@@ -1,0 +1,105 @@
+scenarios:
+  - id: raid_endermon
+    name: "Рейд на Эндермона"
+    duration_h: 24
+    entry: {hp_full: true, level_min: 5}
+    boss: {mob_id: endermon_boss, hp: 10000, bar_len: 20}
+    rewards: {ender_chest: {chance: 0.35}, emeralds: [150, 300]}
+
+  - id: stone_colossus
+    name: "Каменный Колосс"
+    duration_h: 24
+    entry: {hp_full: true, level_min: 8}
+    boss: {mob_id: stone_colossus, hp: 12000}
+    rewards: {emeralds: [200, 400], rubies: 1}
+
+  - id: portal_to_end
+    name: "Портал в Край"
+    duration_h: 24
+    entry: {hp_full: true, level_min: 10}
+    boss: {mob_id: shulker_storm, hp: 14000}
+    rewards: {ender_chest: {chance: 0.40}, emeralds: [250, 450]}
+
+  - id: pig_race
+    name: "Гонка свиней"
+    duration_h: 12
+    entry: {hp_full: true}
+    boss: null
+    rewards: {emeralds: [100, 200], wooden_chest: {chance: 0.5}}
+
+  - id: lost_mine
+    name: "Затерянная шахта"
+    duration_h: 24
+    entry: {hp_full: true}
+    boss: null
+    rewards: {rubies: 1, emeralds: [150, 300]}
+
+  - id: highblock_siege
+    name: "Осадка Хайблока"
+    duration_h: 24
+    entry: {hp_full: true, level_min: 12}
+    boss: {mob_id: royal_executor, hp: 15000}
+    rewards: {gold_chest: {chance: 0.4}, emeralds: [300, 500]}
+
+  - id: sand_hydra
+    name: "Песчаная Гидра"
+    duration_h: 24
+    entry: {hp_full: true, level_min: 7}
+    boss: {mob_id: sand_hydra, hp: 13000}
+    rewards: {emeralds: [200, 350]}
+
+  - id: lava_mayhem
+    name: "Лавовое безумие"
+    duration_h: 12
+    entry: {hp_full: true, level_min: 9}
+    boss: null
+    rewards: {emeralds: [150, 250], rubies: {chance: 0.5}}
+
+  - id: miners_rush
+    name: "Гонка шахтёров"
+    duration_h: 12
+    entry: {hp_full: true}
+    boss: null
+    rewards: {emeralds: [120, 200], wooden_chest: {chance: 0.3}}
+
+  - id: ender_raid
+    name: "Эндер-налёт"
+    duration_h: 24
+    entry: {hp_full: true, level_min: 10}
+    boss: {mob_id: ender_commander, hp: 14000}
+    rewards: {ender_chest: {chance: 0.30}, emeralds: [250, 450]}
+
+  - id: mystic_trader
+    name: "Мистический торговец"
+    duration_h: 8
+    entry: {hp_full: true}
+    boss: null
+    rewards: {artifacts_random: 1}
+
+  - id: phantom_hunt
+    name: "Охота на фантомов"
+    duration_h: 12
+    entry: {hp_full: true}
+    boss: null
+    rewards: {emeralds: [120, 220]}
+
+  - id: nether_portal
+    name: "Портал в Незер"
+    duration_h: 24
+    entry: {hp_full: true, level_min: 9}
+    boss: {mob_id: blaze_overlord, hp: 12000}
+    rewards: {gold_chest: {chance: 0.3}, emeralds: [220, 380]}
+
+  - id: lost_treasure
+    name: "Потерянный клад"
+    duration_h: 8
+    entry: {hp_full: true}
+    boss: null
+    rewards: {emeralds: [180, 300], wooden_chest: {chance: 0.6}}
+
+  - id: clan_raid_arch
+    name: "Клановый рейд на Арх-Злодея"
+    duration_h: 24
+    entry: {hp_full: true, clan_required: true}
+    boss: {mob_id: arch_illager_heart, hp: 20000}
+    rewards: {ender_chest: {chance: 0.50}, emeralds: [400, 700]}

@@ -1,0 +1,377 @@
+daily:
+# ──────── COMBAT 20 ────────
+  - id: kill_10_any           #1
+    title: "Убей 10 мобов"
+    type: combat
+    goal: {count: 10}
+    reward: {emeralds: 40}
+
+  - id: kill_20_any           #2
+    title: "Убей 20 мобов"
+    type: combat
+    goal: {count: 20}
+    reward: {emeralds: 80}
+
+  - id: kill_30_any           #3
+    title: "Убей 30 мобов"
+    type: combat
+    goal: {count: 30}
+    requirements: {level_min: 6}
+    reward: {emeralds: 120}
+
+  - id: kill_melee_15         #4
+    title: "Убей 15 мобов ближнего боя"
+    type: combat
+    goal: {count: 15, target_class: melee}
+    reward: {emeralds: 70}
+
+  - id: kill_ranged_10        #5
+    title: "Убей 10 дальников"
+    type: combat
+    goal: {count: 10, target_class: ranged}
+    reward: {emeralds: 65}
+
+  - id: kill_creeper_5        #6
+    title: "Взорви 5 криперов"
+    type: combat
+    goal: {count: 5, target_id: creeper}
+    reward: {emeralds: 55}
+
+  - id: kill_spider_8         #7
+    title: "Убей 8 пауков"
+    type: combat
+    goal: {count: 8, target_id: spider}
+    reward: {emeralds: 50}
+
+  - id: kill_boss_1           #8
+    title: "Победи босса"
+    type: combat
+    goal: {boss: 1}
+    requirements: {level_min: 5}
+    reward: {emeralds: 150, chest: {wooden: 1}}
+
+  - id: flawless_3            #9
+    title: "Выиграй 3 боя без урона"
+    type: combat
+    goal: {flawless: 3}
+    reward: {emeralds: 110}
+
+  - id: deal_500_damage       #10
+    title: "Нанеси 500 урона"
+    type: combat
+    goal: {damage: 500}
+    reward: {emeralds: 60}
+
+  - id: deal_1000_damage      #11
+    title: "Нанеси 1 000 урона"
+    type: combat
+    goal: {damage: 1000}
+    requirements: {level_min: 7}
+    reward: {emeralds: 120}
+
+  - id: kill_forest_12        #12
+    title: "Убей 12 лесных мобов"
+    type: combat
+    goal: {count: 12, biome: forest}
+    reward: {emeralds: 70}
+
+  - id: kill_swamp_12         #13
+    title: "Убей 12 болотных мобов"
+    type: combat
+    goal: {count: 12, biome: swamp}
+    reward: {emeralds: 75}
+
+  - id: kill_elite_3          #14
+    title: "Убей 3 элитных моба"
+    type: combat
+    goal: {elite: 3}
+    requirements: {level_min: 6}
+    reward: {emeralds: 130}
+
+  - id: use_artifact_3        #15
+    title: "Используй артефакт 3 раза"
+    type: combat
+    goal: {artifact_use: 3}
+    reward: {emeralds: 45}
+
+  - id: kill_fire_10          #16
+    title: "Сожги 10 врагов"
+    type: combat
+    goal: {count: 10, damage_type: fire}
+    requirements: {level_min: 4}
+    reward: {emeralds: 85}
+
+  - id: kill_bow_20           #17
+    title: "Убей 20 из лука"
+    type: combat
+    goal: {count: 20, weapon: bow}
+    reward: {emeralds: 90}
+
+  - id: crit_hits_15          #18
+    title: "Сделай 15 крит-ударов"
+    type: combat
+    goal: {crit: 15}
+    reward: {emeralds: 80}
+
+  - id: night_kills_20        #19
+    title: "Убей 20 мобов ночью"
+    type: combat
+    goal: {count: 20, time: night}
+    reward: {emeralds: 100}
+
+  - id: same_mob_25           #20
+    title: "Убей 25 одинаковых мобов"
+    type: combat
+    goal: {chain_kill: 25}
+    reward: {emeralds: 95}
+
+# ──────── MINE 15 ────────
+  - id: mine_20_blocks        #21
+    title: "Добыть 20 блоков"
+    type: mine
+    goal: {blocks: 20}
+    reward: {emeralds: 30}
+
+  - id: mine_40_blocks        #22
+    title: "Добыть 40 блоков"
+    type: mine
+    goal: {blocks: 40}
+    reward: {emeralds: 60}
+
+  - id: mine_60_blocks        #23
+    title: "Добыть 60 блоков"
+    type: mine
+    goal: {blocks: 60}
+    requirements: {level_min: 5}
+    reward: {emeralds: 90}
+
+  - id: mine_rare_ore_5       #24
+    title: "Найти 5 редких руд"
+    type: mine
+    goal: {rare_ores: 5}
+    reward: {emeralds: 75}
+
+  - id: mine_ruby_1           #25
+    title: "Добыть 1 рубин"
+    type: mine
+    goal: {rubies: 1}
+    requirements: {location_any: ["redstone","forge"]}
+    reward: {emeralds: 120, rubies: 1}
+
+  - id: mine_sandstone_30     #26
+    title: "Добыть 30 песчаника"
+    type: mine
+    goal: {block_id: sandstone, count: 30}
+    reward: {emeralds: 60}
+
+  - id: mine_obsidian_5       #27
+    title: "Добыть 5 обсидиана"
+    type: mine
+    goal: {block_id: obsidian, count: 5}
+    requirements: {level_min: 7}
+    reward: {emeralds: 140}
+
+  - id: mine_redstone_20      #28
+    title: "Найти 20 редстоуна"
+    type: mine
+    goal: {block_id: redstone, count: 20}
+    reward: {emeralds: 85}
+
+  - id: mine_no_damage        #29
+    title: "Закончить шахту без урона"
+    type: mine
+    goal: {flawless_mine: 1}
+    reward: {emeralds: 70}
+
+  - id: mine_chest_1          #30
+    title: "Найти сундук в шахте"
+    type: mine
+    goal: {mine_chests: 1}
+    reward: {emeralds: 50}
+
+  - id: mine_chest_3          #31
+    title: "Найти 3 сундука в шахтах"
+    type: mine
+    goal: {mine_chests: 3}
+    requirements: {level_min: 6}
+    reward: {emeralds: 120}
+
+  - id: mine_kill_mob_5       #32
+    title: "Убей 5 мобов в шахте"
+    type: mine
+    goal: {mine_mob_kill: 5}
+    reward: {emeralds: 65}
+
+  - id: mine_emerald_ore_2    #33
+    title: "Найти 2 изумрудных руды"
+    type: mine
+    goal: {block_id: emerald_ore, count: 2}
+    requirements: {level_min: 4}
+    reward: {emeralds: 95}
+
+  - id: mine_energy_full      #34
+    title: "Используй всю энергию шахт"
+    type: mine
+    goal: {full_mine_sessions: 1}
+    reward: {emeralds: 100}
+
+  - id: mine_100_mix          #35
+    title: "Добыть 100 любых блоков"
+    type: mine
+    goal: {blocks: 100}
+    requirements: {level_min: 8}
+    reward: {emeralds: 150}
+
+# ──────── ECONOMY 10 ────────
+  - id: sell_5_blocks         #36
+    title: "Продай NPC 5 блоков"
+    type: trade
+    goal: {npc_sell: 5}
+    reward: {emeralds: 25}
+
+  - id: sell_20_blocks        #37
+    title: "Продай NPC 20 блоков"
+    type: trade
+    goal: {npc_sell: 20}
+    reward: {emeralds: 60}
+
+  - id: earn_emeralds_100     #38
+    title: "Заработай 100 🟢"
+    type: trade
+    goal: {earn_emeralds: 100}
+    reward: {emeralds: 70}
+
+  - id: auction_sell_1        #39
+    title: "Продай 1 лот на аукционе"
+    type: trade
+    goal: {auction_sold: 1}
+    reward: {emeralds: 60}
+
+  - id: auction_sell_3        #40
+    title: "Продай 3 лота на аукционе"
+    type: trade
+    goal: {auction_sold: 3}
+    requirements: {level_min: 6}
+    reward: {emeralds: 130}
+
+  - id: auction_buy_2         #41
+    title: "Купи 2 лота"
+    type: trade
+    goal: {auction_bought: 2}
+    reward: {emeralds: 55}
+
+  - id: spend_emeralds_200    #42
+    title: "Потрать 200 🟢"
+    type: trade
+    goal: {spend_emeralds: 200}
+    reward: {emeralds: 80}
+
+  - id: earn_ruby_1           #43
+    title: "Получить 1 рубин"
+    type: trade
+    goal: {rubies_earned: 1}
+    reward: {emeralds: 90, rubies: 1}
+
+  - id: market_artifact       #44
+    title: "Купи артефакт в магазине"
+    type: trade
+    goal: {shop_artifact: 1}
+    reward: {emeralds: 60}
+
+  - id: donate_eye            #45
+    title: "Потрать 1 🧿 в магазине"
+    type: trade
+    goal: {spend_ender_eyes: 1}
+    reward: {emeralds: 150}
+
+# ──────── GENERAL 15 ────────
+  - id: open_wood_chest       #46
+    title: "Открой деревянный сундук"
+    type: general
+    goal: {open_chest: {wooden: 1}}
+    reward: {emeralds: 25}
+
+  - id: open_gold_chest       #47
+    title: "Открой золотой сундук"
+    type: general
+    goal: {open_chest: {gold: 1}}
+    reward: {emeralds: 60}
+
+  - id: open_ender_chest      #48
+    title: "Открой эндер-сундук"
+    type: general
+    goal: {open_chest: {ender: 1}}
+    requirements: {level_min: 5}
+    reward: {emeralds: 120}
+
+  - id: upgrade_armor_1       #49
+    title: "Улучши броню"
+    type: general
+    goal: {armor_upgrade: 1}
+    reward: {emeralds: 70}
+
+  - id: upgrade_weapon_1      #50
+    title: "Улучши оружие"
+    type: general
+    goal: {weapon_upgrade: 1}
+    reward: {emeralds: 75}
+
+  - id: craft_item_1          #51
+    title: "Скрафти предмет"
+    type: general
+    goal: {craft: 1}
+    reward: {emeralds: 45}
+
+  - id: use_potion_2          #52
+    title: "Используй 2 зелья"
+    type: general
+    goal: {potions_used: 2}
+    reward: {emeralds: 40}
+
+  - id: login_streak_3        #53
+    title: "Не прерывай стрик 3 дня"
+    type: general
+    goal: {login_streak: 3}
+    reward: {emeralds: 90}
+
+  - id: join_clan             #54
+    title: "Вступи в клан"
+    type: general
+    goal: {join_clan: 1}
+    reward: {emeralds: 80}
+
+  - id: clan_xp_50            #55
+    title: "Принеси 50 XP клану"
+    type: general
+    goal: {contribute_xp: 50}
+    reward: {emeralds: 100}
+
+  - id: complete_quests_3     #56
+    title: "Выполни 3 дейлика"
+    type: general
+    goal: {daily_completed: 3}
+    reward: {emeralds: 60}
+
+  - id: complete_event_1      #57
+    title: "Участвуй в событии"
+    type: general
+    goal: {event_participation: 1}
+    reward: {emeralds: 110}
+
+  - id: perfect_battle_3      #58
+    title: "Выиграй 3 боя подряд без урона"
+    type: general
+    goal: {flawless_streak: 3}
+    reward: {emeralds: 120}
+
+  - id: travel_new_location   #59
+    title: "Открой новую локацию"
+    type: general
+    goal: {new_location: 1}
+    reward: {emeralds: 90}
+
+  - id: daily_all_6           #60
+    title: "Закрой все 6 дейликов"
+    type: general
+    goal: {daily_completed: 6}
+    reward: {gold_chest: 1}
