@@ -1,0 +1,2 @@
+class MineSession:
+    pass

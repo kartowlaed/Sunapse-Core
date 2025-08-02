@@ -1,0 +1,25 @@
+bosses:
+  forest:
+    miniboss:  treant_guardian
+    boss:      treant_guardian_elder
+  swamp:
+    miniboss:  slime_queen
+    boss:      slime_queen_prime
+  pumpkin:
+    miniboss:  harvest_lord
+    boss:      harvest_titan
+  redstone:
+    miniboss:  redstone_golem
+    boss:      redstone_golem_titan
+  forge:
+    miniboss:  flame_guard
+    boss:      flame_overlord
+  desert:
+    miniboss:  sphinx_keeper
+    boss:      sphinx_avatar
+  highblock:
+    miniboss:  lord_champion
+    boss:      lord_highblock
+  obsidian:
+    miniboss:  chaos_guardian
+    boss:      arch_illager_heart

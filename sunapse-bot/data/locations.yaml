@@ -1,0 +1,137 @@
+locations:
+  - id: forest
+    name: "Лес Криперов"
+    biome: forest
+    mine_name: "Лесная шахта"
+    generic_chance: 0.60
+    unique_pool:
+      - zombie_brute
+      - skeleton_archer
+      - wolf_phantom
+      - witch_apprentice
+      - creeper_bomber
+      - enchanter
+      - rotting_berserk
+      - scout_illager
+      - tree_golem
+    elite_pool:
+      - forest_elite_witch
+    miniboss: treant_guardian
+    sublocations: []
+    boss_id: forest_boss
+  - id: swamp
+    name: "Топкое Болото"
+    biome: swamp
+    mine_name: "Болотоходная шахта"
+    generic_chance: 0.50
+    unique_pool:
+      - witch
+      - toxic_zombie
+      - swamp_slime
+      - swamp_archer
+      - drowned_ghost
+      - moss_troll
+    elite_pool:
+      - slime_elite_queen
+    miniboss: slime_queen
+    sublocations: []
+    boss_id: swamp_boss
+  - id: pumpkin
+    name: "Тыквенные Поля"
+    biome: pumpkin
+    mine_name: "Поля с тыквами"
+    generic_chance: 0.40
+    unique_pool:
+      - bandit_raider
+      - illager_trickster
+      - vex_ghost
+      - scarecrow_killer
+      - pumpkin_bomber
+      - mad_farmer
+    elite_pool:
+      - harvest_elite
+    miniboss: harvest_lord
+    sublocations: []
+    boss_id: pumpkin_boss
+  - id: redstone
+    name: "Краснокаменные Шахты"
+    biome: redstone
+    mine_name: "Краснокаменные разломы"
+    generic_chance: 0.30
+    unique_pool:
+      - redstone_cube
+      - illager_miner
+      - tunnel_spider
+      - skeleton_sapper
+      - goblin_digger
+      - engineer_illager
+    elite_pool:
+      - golem_elite
+    miniboss: redstone_golem
+    sublocations: []
+    boss_id: redstone_boss
+  - id: forge
+    name: "Пылающая Кузня"
+    biome: forge
+    mine_name: "Огненные штольни"
+    generic_chance: 0.25
+    unique_pool:
+      - fire_cube
+      - magma_skeleton
+      - blazing_illager
+      - lava_golem
+      - heat_spider
+    elite_pool:
+      - forge_elite_golem
+    miniboss: flame_lord
+    sublocations: []
+    boss_id: forge_boss
+  - id: desert
+    name: "Храм Пустыни"
+    biome: desert
+    mine_name: "Песчаный карьер"
+    generic_chance: 0.20
+    unique_pool:
+      - husk
+      - necromancer
+      - sand_spirit
+      - mummy
+      - cobra_ghost
+    elite_pool:
+      - desert_elite_guard
+    miniboss: sphinx_keeper
+    sublocations: []
+    boss_id: desert_boss
+  - id: highblock
+    name: "Залы Хайблока"
+    biome: highblock
+    mine_name: "Катакомбы Хайблока"
+    generic_chance: 0.18
+    unique_pool:
+      - royal_guard
+      - illager_punisher
+      - armor_archer
+      - court_mage
+      - sentinel_wolf
+    elite_pool:
+      - highblock_elite_knight
+    miniboss: lord_highblock
+    sublocations: []
+    boss_id: highblock_boss
+  - id: obsidian
+    name: "Обсидиановая Вершина"
+    biome: obsidian
+    mine_name: "Эндер-разлом"
+    generic_chance: 0.15
+    unique_pool:
+      - endermite
+      - shadow_illager
+      - dark_phantom
+      - chaos_guard
+      - void_eye
+    elite_pool:
+      - obsidian_elite_shadow
+    miniboss: arch_illager
+    sublocations: []
+    boss_id: obsidian_boss
+

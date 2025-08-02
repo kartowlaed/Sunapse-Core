@@ -1,0 +1,10 @@
+materials:
+  wood:       {tier: 0, tag: WO, dmg: 10, hp: 12}
+  stone:      {tier: 1, tag: ST, dmg: 14, hp: 18}
+  copper:     {tier: 2, tag: CU, dmg: 16, hp: 24}
+  iron:       {tier: 3, tag: FE, dmg: 18, hp: 32}
+  steel:      {tier: 4, tag: SL, dmg: 20, hp: 40}
+  gold:       {tier: 5, tag: AU, dmg: 22, hp: 36}
+  diamond:    {tier: 6, tag: DI, dmg: 26, hp: 48}
+  netherite:  {tier: 7, tag: NE, dmg: 30, hp: 60}
+  adamantite: {tier: 8, tag: AD, dmg: 34, hp: 72}

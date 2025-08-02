@@ -1,0 +1,90 @@
+# Сундуки
+chests:
+  wooden:
+    slots: 3
+    table:
+      emeralds: [10, 40]
+      blocks:
+        stone: [3, 8]
+        wood:  [1, 3]
+      weapon_roll: {wood_sword: 0.05}
+  gold:
+    slots: 4
+    rarity_mult: 1.5
+    table:
+      emeralds: [40, 120]
+      blocks:
+        iron_ore: [1, 4]
+        gold_ore: [0, 2]
+      armor_roll: {iron: 0.10}
+      artifact_roll: {heal_totem: 0.05}
+  ender:
+    slots: 4
+    rarity_mult: 2.5
+    table:
+      emeralds: [120, 300]
+      artifacts_any: 0.25
+      rubies: {min: 1, max: 2, chance: 0.50}
+
+# Дроп generic-мобов
+mobs:
+  zombie:
+    emeralds: [5, 10]
+    chest: {wooden: 0.05}
+  skeleton:
+    emeralds: [6, 12]
+    arrows: [1, 3]
+    chest: {wooden: 0.05}
+  spider:
+    emeralds: [5, 10]
+    silk: [1, 2]
+  creeper:
+    emeralds: [8, 14]
+    gunpowder: [1, 2]
+    chest: {wooden: 0.07}
+
+# Шахтный дроп (по биому)
+mine:
+  forest:
+    stone:         [0.50]
+    coal_ore:      [0.15]
+    mossy_stone:   [0.20]
+    emerald_ore:   [0.02]
+    chest:         [0.03]
+  redstone:
+    stone:      [0.40]
+    redstone:   [0.35]
+    ruby:       [0.02]
+    iron_ore:   [0.15]
+    gold_ore:   [0.08]
+    chest:      [0.05]
+  swamp:
+    dirt:         [0.50]
+    rotten_wood:  [0.30]
+    slime_ball:   [0.15]
+    chest:        [0.05]
+  pumpkin:
+    clay:         [0.50]
+    iron_ore:     [0.20]
+    pumpkin_seed: [0.20]
+    chest:        [0.05]
+  forge:
+    magma_block:  [0.40]
+    gold_ore:     [0.25]
+    magmatite:    [0.20]
+    chest:        [0.05]
+  desert:
+    sandstone:    [0.50]
+    gold_ore:     [0.20]
+    soul_fragment: [0.15]
+    chest:        [0.05]
+  highblock:
+    limestone:    [0.60]
+    iron_ore:     [0.20]
+    artifact_frag: [0.10]
+    chest:        [0.05]
+  obsidian:
+    obsidian:     [0.50]
+    ender_pearl:  [0.20]
+    void_crystal: [0.20]
+    chest:        [0.05]
